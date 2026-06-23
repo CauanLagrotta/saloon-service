@@ -1,10 +1,14 @@
 package com.cauanlagrotta.payload.dto;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalTime;
 import java.util.List;
 
+@Getter
+@Setter
 public class SaloonDTO {
 
   private Long id;
