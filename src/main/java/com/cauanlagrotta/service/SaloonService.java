@@ -13,8 +13,6 @@ public interface SaloonService {
 
   List<Saloon> getAll();
 
-  void delete(Long id, UserDTO user);
-
   Saloon getById(Long id);
 
   Saloon getByOwnerId(Long ownerId);
