@@ -75,7 +75,7 @@ public class SaloonController {
   }
 
   @GetMapping("/owner/{ownerId}")
-  public ResponseEntity<SaloonDTO> getByOwnerId(@PathVariable("saloonId") Long saloonId){
+  public ResponseEntity<SaloonDTO> getByOwnerId(@PathVariable("ownerId") Long ownerId){
 
     UserDTO user = new UserDTO();
     user.setId(1L);
